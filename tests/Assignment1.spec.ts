@@ -14,7 +14,7 @@ test('Verify user can logged in successfuuly to https://practicetestautomation.c
     await page.getByRole('button', { name: 'Submit' }).click();
       console.log('User logged in successfully');
 
-  // Verify page title}
+  // Verify page title
   await expect(page).toHaveURL('https://practicetestautomation.com/logged-in-successfully/');
     console.log('URL validation successfully');
 
