@@ -29,6 +29,9 @@ test('Verify user can logged in successfuuly to https://practicetestautomation.c
 }
 );
 
+// Test case 2: Negative LogIn test with incorrect username
+
+
 test('Verify Negative username test', async ({ page }) => {
   // Navigate to website
   await page.goto('https://practicetestautomation.com/practice-test-login/');
@@ -47,6 +50,7 @@ test('Verify Negative username test', async ({ page }) => {
 }
 );
 
+// Test case 3: Negative LogIn test with incorrect password
 
 test('Verify Negative password test', async ({ page }) => {
   // Navigate to website
