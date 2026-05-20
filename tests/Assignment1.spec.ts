@@ -1,7 +1,7 @@
 
 // Test case 1: Positive LogIn test
-// Test case 2: Negative LogIn test with incorrect username
-// Test case 3: Negative LogIn test with incorrect password
+
+
 import { test, expect } from '@playwright/test';
 test('Verify user can logged in successfuuly to https://practicetestautomation.com/practice-test-login/', async ({ page }) => {
   // Navigate to website
