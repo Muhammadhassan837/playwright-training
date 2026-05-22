@@ -1,7 +1,6 @@
 import { test, expect, Page } from '@playwright/test';
 import {base_url} from '../Fixtures/URL.json'; // Importing baseUrl from URL.json
 import dotenv from 'dotenv';
-import { cp } from 'node:fs';
 dotenv.config({ path: 'credentialsenv.env' }); // Load environment variables from .env file
 const username = process.env.APP_USERNAME || 'defaultUsername'; // Get username from environment variable or use default
 const password = process.env.APP_PASSWORD || 'defaultPassword'; // Get password from environment variable or use default
