@@ -6,3 +6,7 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+tests/delete-object.spec.ts
+tests/get-object.spec.ts
+tests/post-object.spec.ts
+tests/put-object.spec.ts

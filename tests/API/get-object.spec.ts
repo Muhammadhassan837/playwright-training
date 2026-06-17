@@ -1,5 +1,4 @@
 import { test, expect } from '@playwright/test';
-import { APIResponse } from '@playwright/test';
 
 test('get object api test to return list of objects', async ({ request }) => {
 
