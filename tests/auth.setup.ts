@@ -1,5 +1,5 @@
 import { test as setup } from '@playwright/test';
-import { doRegister } from './parabankregister.spec';
+//import { doRegister } from './parabankregister.spec';
 import { doLogin } from './expand_login.spec';
 
 const authFile = 'playwright/.auth/authentication.json';

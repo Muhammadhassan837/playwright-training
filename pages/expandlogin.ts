@@ -12,11 +12,11 @@ export default class ExpandLoginPage {
     this.submitButton = page.getByRole('button', { name: 'Login' });
     }
 
-async enterUsername(username: string) {
-    await this.loginField.fill(username);}
+async enterUsername(Username: string) {
+    await this.loginField.fill(Username);}
 
-async enterPassword(password: string) {
-    await this.passwordField.fill(password);}
+async enterPassword(Password: string) {
+    await this.passwordField.fill(Password);}
 async clickSubmit() {
     await this.submitButton.click();}   
 }
