@@ -1,0 +1,1 @@
+Authentication state saved to file: playwright/.auth/expand_authentication.json

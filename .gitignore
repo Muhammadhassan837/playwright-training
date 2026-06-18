@@ -10,3 +10,5 @@ tests/delete-object.spec.ts
 tests/get-object.spec.ts
 tests/post-object.spec.ts
 tests/put-object.spec.ts
+allure reports/
+allure-results/
